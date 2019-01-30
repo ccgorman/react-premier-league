@@ -1,0 +1,25 @@
+.Blog {
+    width: 200px;
+    height: 200px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Blog img {
+    width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+}
+.Blog:hover,
+.Blog:active {
+    background-color: #CCCCCC;
+}
+.Name {
+    margin: 0;
+    color: #000;
+}
