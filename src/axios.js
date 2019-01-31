@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://ec2-34-243-153-154.eu-west-1.compute.amazonaws.com:5000/api'
+  baseURL: 'https://raw.githubusercontent.com/openfootball/football.json/master/2016-17/en.1.json'
 });
 
 export default instance;
